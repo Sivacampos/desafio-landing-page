@@ -1,115 +1,158 @@
-*{
-    margin: 0px;
-    font-family: 'inter';
-}
+    *{
+        margin: 0px;
+        font-family: 'inter';
+    }
 
-#menu-superior{
-    background-color: #303030;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 475px;
+    #menu-superior{
+        background-color: #303030;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 475px;
+        
+
+    }
+
+    #texto-menu-superior{
+        color: white;
+        font-size: 72px;
+        margin-left: 72px;
+        padding-top: 180px;
+
+    }
+
+    #texto-menu-superior2{
+        color: white;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 72px;
+    }
+
+    #historico{
+        background-color: #F9F9F9;
+        background-size: 100%;
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+        height: 180px;
     
+    }
 
-}
+    #hist1{
+        margin-top: 55px;
+        margin-left: 38%;
+    }
 
-#texto-menu-superior{
-    color: white;
-    font-size: 72px;
-    margin-left: 72px;
-    padding-top: 180px;
+    #portifolio{
+        margin-top: 50px;
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+    }
 
-}
+    #texto-portifolio{
+        margin-left: 100px;
+        margin-top: 200px;
+    }
 
-#texto-menu-superior2{
-    color: white;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 72px;
-}
+    #corpo-texto-portifolio{
+        font-size: 18px;
+        margin-top: 25px;
+    }
 
-#historico{
-    background-color: #F9F9F9;
-    background-size: 100%;
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
-    height: 180px;
-   
-}
+    #questionario{
+        background-color: #303030;
+        height: 580px;
+        text-align: center;
+        margin-top: 50px;
+    }
 
-#hist1{
-    margin-top: 55px;
-    margin-left: 38%;
-}
+    #titulo-quationario{
+        padding-top: 80px;
+        color: white;
+        
+        
+    }
 
-#portifolio{
-    margin-top: 50px;
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
-}
+    #input{
+        margin-left: 10px;
+    }
 
-#texto-portifolio{
-    margin-left: 100px;
-    margin-top: 200px;
-}
+    input{
+        width: 300px;
+        height: 30px;
+        background-color: #EAECE5;
+        margin: 15px;
+        border: 0px;
+        border-radius: 5px;
+        padding: 8px;
+    }
 
-#corpo-texto-portifolio{
-    font-size: 18px;
-    margin-top: 25px;
-}
+    button{
+        background-color: #C07212;
+        font-size: 20px;
+        color: white;
+        height: 40px;
+        width: 250px;
+        border-radius: 7px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
 
-#questionario{
-    background-color: #303030;
-    height: 580px;
-    text-align: center;
-    margin-top: 50px;
-}
+    button:hover{
+        background-color: #469cc1;
+        color: white;
+        transform: translateY(-3px);
+        box-shadow: 0px 15px 20px #41657584;
+        transition-duration: 0.5s;
+    }
 
-#titulo-quationario{
-    padding-top: 80px;
-    color: white;
+    #produzido{
+        text-align: center;
+    }
+
+    #texto-producao{
+        padding: 5px;
+    }
+
+@media only screen and (max-width: 600px){
+
+    #menu-superior{
+        height: auto;
+    }
+
+    #menu-superior h1{
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        font-size: 50px;
+        padding: 30px 0px 0px 0px;    
+    }
     
-    
-}
+    #hist1{
+        margin-left: 10px;
+        margin-right: 7px;
+        font-size: 10px;
+    }
 
-#input{
-    margin-left: 10px;
-}
+    #portifolio{
+        display: flex;
+        flex-direction: column;
+        
+    }
 
-input{
-    width: 300px;
-    height: 30px;
-    background-color: #EAECE5;
-    margin: 15px;
-    border: 0px;
-    border-radius: 5px;
-    padding: 8px;
-}
+    #portifolio img{
+        width: 350px;
+        margin-left: 25px;
+    }
+    #texto-portifolio{
+        margin: 0px 10px 30px 10px;
+    }
 
-button{
-    background-color: #C07212;
-    font-size: 20px;
-    color: white;
-    height: 40px;
-    width: 250px;
-    border-radius: 7px;
-    font-weight: bolder;
-    cursor: pointer;
-}
+    #historico{
+        height: 120px;
+    }
 
-button:hover{
-    background-color: #469cc1;
-    color: white;
-    transform: translateY(-3px);
-    box-shadow: 0px 15px 20px #41657584;
-    transition-duration: 0.5s;
-}
-
-#produzido{
-    text-align: center;
-}
-
-#texto-producao{
-    padding: 5px;
+    #texto-producao{
+        font-size: 15px;
+    }       
 }
