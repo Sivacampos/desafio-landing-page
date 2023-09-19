@@ -61,7 +61,8 @@
    <br><br><br>
     <form id="input" action="https://api.sheetmonkey.io/form/cirMA2sPTDVmQ1aHFDc6LL" method="post">
         <input type="text" placeholder="Nome" name="Nome" id="Name" required><br>
-        <input type="email" placeholder="Email" name="Email" id="Email" required>
+        <input type="email" placeholder="Email" name="Email" id="Email" autocomplete="email" required><br>
+        <input type="tel" placeholder="(99)99999-9999" name="Nome" id="Name" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
         <br><br><br>
         <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
         <button type="submit">Fale Conosco</button>
